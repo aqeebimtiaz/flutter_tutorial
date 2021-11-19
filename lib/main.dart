@@ -18,16 +18,7 @@ class Home extends StatelessWidget {
             backgroundColor: Colors.red[600]
         ),
         body: Center(
-          child: Text(
-            "hola",
-            style: TextStyle(
-              fontSize: 20.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 2.0,
-              color: Colors.grey[600],
-              fontFamily: 'Roboto',
-            ),
-          ),
+          child: Image.asset("assets/images/photo1.jpeg"),
         ),
         floatingActionButton: FloatingActionButton(
           child: Text('click'),
